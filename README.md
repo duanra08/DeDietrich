@@ -1,8 +1,8 @@
-# Remeha Home integration for Home Assistant
-This integration lets you control your Remeha Home thermostats from Home Assistant.
+# De Dietrich Home integration for Home Assistant
+This integration lets you control your De Dietrich Home thermostats from Home Assistant.
 
-**Before using this integration, make sure you have set up your thermostat in the [Remeha Home](https://play.google.com/store/apps/details?id=com.bdrthermea.application.remeha) app.**
-If you are unable to use the Remeha Home app for your thermostat, this integration will not work.
+**Before using this integration, make sure you have set up your thermostat in the [De Dietrich Home](https://play.google.com/store/apps/details?id=com.bdrthermea.application.dedietrich) app.**
+If you are unable to use the De Dietrich Home app for your thermostat, this integration will not work.
 
 There have been reports by users that this intergration will also work for Baxi, De Dietrich, and Brötje systems (and possibly other BDR Thermea products).
 You can simply log in using the credentials that you would use in the respective apps.
@@ -14,7 +14,7 @@ You can simply log in using the credentials that you would use in the respective
         If the target temperature is changed, it will temporarily override the clock program until the next target temperature change in the schedule.
         - Heat mode: the thermostat will be set to manual mode and continuously hold the set temperature.
         - Off mode: the thermostat is disabled.
-    - Three presets for the three clock programs available in the Remeha Home app.
+    - Three presets for the three clock programs available in the De Dietrich Home app.
     When a preset is selected, the integration will automatically switch the climate zone to auto mode to make sure the preset is applied.
 - Each climate zone also exposes the following sensors/switches:
     - The next schedule setpoint
@@ -33,7 +33,7 @@ You can simply log in using the credentials that you would use in the respective
 
 Do you have [HACS](https://hacs.xyz/) installed?
 Click the button or follow the instructions.
-1. Search integrations for **Remeha Home**
+1. Search integrations for **De Dietrich Home**
 1. Click `Install`
 1. Restart Home Assistant
 1. See [Setup](#setup)
@@ -41,16 +41,16 @@ Click the button or follow the instructions.
 ### Install manually
 
 1. Install this platform by creating a `custom_components` folder in the same folder as your configuration.yaml, if it doesn't already exist.
-2. Create another folder `remeha_home` in the `custom_components` folder. Copy all files from `custom_components/remeha_home` into the `remeha_home` folder.
+2. Create another folder `De Dietrich_home` in the `custom_components` folder. Copy all files from `custom_components/De Dietrich_home` into the `De Dietrich_home` folder.
 
 ## Setup
 1. In Home Assitant click on `Configuration`
 1. Click on `Devices & Services`
 1. Click on `+ Add integration`
-1. Search for and select `Remeha Home`
+1. Search for and select `De Dietrich Home`
 1. Enter your email address and password
 1. Click "Next"
 1. Enjoy
 
 ## API documentation
-For information on the Remeha Home API see [API documentation](documentation/api.md).
+For information on the De Dietrich Home API see [API documentation](documentation/api.md).
