@@ -1,5 +1,6 @@
 # De Dietrich Home integration for Home Assistant
 This integration lets you control your De Dietrich Home thermostats from Home Assistant.
+It's a fork of Remeha Home thermostats from Home Assistant https://github.com/msvisser/remeha_home
 
 **Before using this integration, make sure you have set up your thermostat in the [De Dietrich Home](https://play.google.com/store/apps/details?id=com.bdrthermea.application.dedietrich) app.**
 If you are unable to use the De Dietrich Home app for your thermostat, this integration will not work.
